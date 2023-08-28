@@ -1,0 +1,25 @@
+{
+  "name": "7TDv2",
+  "version": "0.1.0-beta",
+  "type": "module",
+  "repository": "https://gitlab.chinacici.com/boilerplate/vuepress-ttd",
+  "author": "JinHang<jinhang@chinacici.com>, SunWenXiao<sunwenxiao@chinacici.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.4",
+    "vue": "3.3.4"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
+  }
+}
