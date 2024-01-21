@@ -5,8 +5,8 @@ pipeline {
       yaml """
 spec:
   containers:
-  - name: nodejs-16
-    image: node:16.20.1-slim
+  - name: nodejs-with-git
+    image: 3its/node-with-git:v18.19.0
     tty: true
 """
     }
