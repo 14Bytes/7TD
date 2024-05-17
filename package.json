@@ -1,9 +1,9 @@
 {
-  "name": "7TDv2",
-  "version": "0.1.0-beta",
+  "name": "@14bytes/7TD",
+  "version": "0.1.1",
   "type": "module",
-  "repository": "https://gitlab.chinacici.com/boilerplate/vuepress-ttd",
-  "author": "JinHang<jinhang@chinacici.com>, SunWenXiao<sunwenxiao@chinacici.com>",
+  "repository": "https://github.com/14bytes/7TD",
+  "author": "J1nH4ng<jinhang@mail.14bytes.com>",
   "license": "MIT",
   "devDependencies": {
     "vitepress": "1.0.0-rc.4",
