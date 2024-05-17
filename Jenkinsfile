@@ -14,9 +14,9 @@ spec:
 
   environment {
     KUBECONFIG_CREDENTIAL_ID = "kubeconfig"
-    REGISTRY = "10.1.0.123:3380"
-    REGISTRY_NAMESPACE = "boilerplate"
-    APP_NAME = "vuepress-ttd"
+    REGISTRY = "127.0.0.1:3380"
+    REGISTRY_NAMESPACE = "template"
+    APP_NAME = "7TD"
   }
 
   stages {
@@ -24,7 +24,7 @@ spec:
       agent none
       steps {
         container('base') {
-          git(url: 'https://gitlab.chinacici.com/boilerplate/vuepress-ttd.git', credentialsId: 'gitlab-credential', branch: 'master', changelog: true, poll: false)
+          git(url: 'https://github.com/14bytes/7TD.git', credentialsId: 'gitlab-credential', branch: 'master', changelog: true, poll: false)
         }
       }
     }
