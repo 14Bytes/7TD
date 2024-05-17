@@ -6,8 +6,8 @@
 
 ```ts
 export default defineConfig({
-    title: '世纪飞越技术部',
-    titleTemplate: ':title|世纪飞越',
+    title: '14bytes技术部',
+    titleTemplate: ':title|14bytes',
     description: 'Technical Teams Documents',
     lang: 'zh-CN',
 
@@ -30,8 +30,8 @@ export default defineConfig({
 
 ```ts{2}
 export default defineConfig({
-    title: '世纪飞越技术部',
-    titleTemplate: ':title|世纪飞越',
+    title: '14bytes技术部',
+    titleTemplate: ':title|14bytes',
     description: 'Technical Teams Documents',
     lang: 'zh-CN',
 
